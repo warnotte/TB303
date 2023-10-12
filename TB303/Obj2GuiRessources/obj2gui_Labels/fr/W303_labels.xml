@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements>
+  <element name="Cutoff" label="Cutoff" tooltips="" />
+  <element name="Label_Cutoff" label="Cutoff" tooltips="" />
+  <element name="Label_Len" label="Len" tooltips="" />
+  <element name="Label_Reso" label="Reso" tooltips="" />
+  <element name="Len" label="Len" tooltips="" />
+  <element name="Reso" label="Reso" tooltips="" />
+</Elements>

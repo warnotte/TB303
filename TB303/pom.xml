@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.github.warnotte.mao</groupId>
+	<artifactId>TB303</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<release>17</release>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/io.github.warnotte/waxlib3 -->
+		<dependency>
+			<groupId>io.github.warnotte</groupId>
+			<artifactId>waxlib3</artifactId>
+			<version>0.0.2.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.github.warnotte/obj2gui2 -->
+		<dependency>
+
+			<groupId>io.github.warnotte</groupId>
+			<artifactId>obj2gui2</artifactId>
+			<version>1.1.6</version>
+		</dependency>
+
+
+	</dependencies>
+</project>
