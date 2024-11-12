@@ -9,7 +9,7 @@ import io.github.warnotte.obj2gui2.JPanelMagique;
  * @author Warnotte Renaud
  *
  */
-public class main
+public class Main
 {
 
 	/**
@@ -53,7 +53,7 @@ public class main
 			float val1 = (float) w303_a.out / 127f;
 			float val2 = (float) w303_b.out / 127f;
 			float val3 = (float) w303_c.out / 127f;
-			float val = val1+val2+val3;
+			float val = (val1+val2+val3)/3;
 			player.write(new float[]{val});
 		}
 	}
